@@ -1,0 +1,180 @@
+* {
+	color: white;
+}
+
+body {
+	min-width: 950px;
+	margin: 0;
+}
+
+.fondo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: -5;
+}
+
+.fondo img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+	filter: blur(2px);
+}
+
+.actual {
+	background-image: linear-gradient(#F2E530 -10%, #827D00 45%, #F2E530 120%);
+}
+
+.bar, .bar__list {
+	display: flex;
+	list-style-type: none;
+}
+
+.bar * {
+	margin: 0;
+	padding: 0;
+}
+
+.bar {
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 15px;
+	padding: 0 100px;
+	align-items: center;
+	margin: 10px 4%;
+	margin-bottom: 20px;
+	background-image: linear-gradient(#F20505 -10%, #820000 45%, #F20505 120%);
+}
+
+.bar header {
+	margin: 5px 20px;
+	order: 1;
+}
+
+.bar nav {
+	flex-grow: 1;
+}
+
+.bar__list {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 21px;
+	
+	justify-content: flex-start;
+}
+
+.bar__list li a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0 25px;
+	height: 47px;
+}
+
+.no-actual:hover {
+	background-image: linear-gradient(#FF3838 -10%, #C60404 45%,#FF3838 120%);
+}
+
+.contenido {
+	margin: 10px 4%;
+}
+
+.contenido article {
+	background-image: radial-gradient(circle 750px at center, #05B8FF 50%, #048ABF 80%);
+	border-radius: 10px;
+	font-family: 'Fjalla One', sans-serif;
+	width: 82%;
+	height: 85vh;
+	overflow: auto;
+	padding: 1px 10px;
+	box-sizing: border-box;
+}
+
+.contenido article::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contenido article::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.contenido article::-webkit-scrollbar-button:increment,.contenido article::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contenido article::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.contenido article::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.linea__titulo {
+	width: 90%;
+	height: 5px;
+	background-image: linear-gradient(90deg, rgba(0,0,0,0), blue, rgba(0,0,0,0));
+	margin: auto;
+}
+
+article > h1 {
+	text-align: center;
+}
+
+section h1 {
+	
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.contenido aside {
+	background-image: linear-gradient(90deg, #D20404 -10%, #820000 45%, #820000 50%, #820000 55%, #D20404 110%);
+	border-radius: 10px;
+	width: 14%;
+	height: 85vh;
+	float: right;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.aside__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 85vh;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.aside__list li a {
+	display: flex;
+	background-image: linear-gradient(90deg, #F2E530 -10%, #827D00 45%, #F2E530 120%);
+	border-radius: 10px;
+	min-height: 55px;
+	margin: 15px 0;
+	padding: 10px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 21px;
+	box-sizing: border-box;
+}
+
+.aside__list li a:hover {
+	background-image: linear-gradient(90deg, #FF3838 -10%, #C60404 45%,#FF3838 120%);
+}
+
+footer {
+	display: block;
+	height: 50px;
+	background-color: grey;
+}
