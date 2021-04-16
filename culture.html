@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="estilo.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ubuntu&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/53e3981174.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="fondo">
@@ -29,19 +30,19 @@
 	<div class="contenido">
 		<aside>
 			<ul class="aside__list">
-				<li><a href="#Tourism">Tourism</a></li>
-				<li><a href="#Iconic_elements">Iconic elements</a></li>
-				<li><a href="#Religion">Religion</a></li>
-				<li><a href="#Illustrious_characters">Illustrious characters / famous personages</a></li>
-				<li><a href="#Languages">Languages</a></li>
+				<li><a href="#4">Tourism</a></li>
+				<li><a href="#5">Iconic elements</a></li>
+				<li><a href="#6">Religion</a></li>
+				<li><a href="#7">Illustrious characters / famous personages</a></li>
+				<li><a href="#8">Languages</a></li>
 			</ul>
 		</aside>
 		
 		<article>
 			<h1>Culture</h1>
 			<div class="linea__titulo"></div>
-			<section>
-				<h1 id="Tourism">Tourism</h1>
+			<section id="4">
+				<h1>Tourism <button onclick="show(4)">Watch video <i class="far fa-play-circle"></i></button></h1>
 				<p>Spain is one of the world’s biggest tourist destinations, welcoming over 83 million visitors in 2019. While many are attracted to the country’s sun, sea and sangria, there is much more to the country than its (amazing) beaches. We take a look at some of Spain’s must-visit attractions.</p>
 				<h4>SAGRADA FAMILIA</h4>
 				<p>Barcelona architect Antoni Gaudí began work on the Sagrada Familia in 1883 and it remains unfinished to this day. His other-worldly design, featuring his signature mosaics and modernist flourishes, is due to be completed in 2026, the centenary of Gaudí’s death.</p>
@@ -60,8 +61,8 @@
 				<h4>BALEARIC ISLAND</h4>
 				<p>Whether it’s laid-back Menorca, family-friendly Mallorca or hedonistic Ibiza, Spain’s Balearic Islands are a popular holiday destination for all ages. From partying the night away in Ibiza’s clubs to cycling around Mallorca and lazing on the islands’ incredible beaches, however you prefer to spend your holidays, the Balearics are the perfect location.</p>
 			</section>
-			<section>
-				<h1 id="Iconic_elements">Iconic elements</h1>
+			<section id="5">
+				<h1>Iconic elements <button onclick="show(5)">Watch video <i class="far fa-play-circle"></i></button></h1>
 				<p>Spain, as a country is so easy and yet so difficult to describe. The not-so-little, oh-so-pretty and eye-stabbing-beautiful country of Spain is undoubtedly one of the best countries of the world thanks to it’s all round aspect of great food, people, art, culture and architecture. Spain has something beautiful and significant to offer to each and every person who goes to Spain. Like adventure? You have loads! Love food? Every Spanish region boasts of a cuisine different from the other! Enjoy relaxing? Spaniards won’t go one day without their siestas! You’re a party-freak? Head to Ibiza for the world’s best and biggest parties! In short, a little something for every one.</p>
 				<ol>
 					<li>Corrida De Toros (Bullfigting)
@@ -90,8 +91,12 @@
 					</li>
 				</ol>
 			</section>
-			<section>
-				<h1 id="Religion">Religion</h1>
+			<section id="6">
+				<div class="video horizontal">
+					<button class="cancel" onclick="hide(6)"><i class="fas fa-times-circle"></i></button>
+					<video src="Videos/Religion.mp4" controls></video>
+				</div>
+				<h1>Religion <button onclick="show(6)">Watch video <i class="far fa-play-circle"></i></button></h1>
 				<p>Like much of Europe, the most widely practiced religion in Spain is Roman Catholicism. Not only do the vast majority of Spaniards identify as Catholic (about 70%), but the history of Spain is strongly rooted in Catholic tradition.</p>
 				<p>Alcalá itself is home to several historical gothic style churches, and during Semana Santa (Holy Week) Alcalá comes alive with religious ceremony and spirit.</p>
 				<p>Still, the vast majority people in Alcala, and the rest of Spain, do not actually attend church regularly. This is particularly true of the younger generations. So while Catholicism continues to play in Spanish culture, and most people do identify as Catholic, it is not a very “religious” country in the sense most people do not go to mass more than a few times per year.</p>
@@ -99,8 +104,8 @@
 				<p>In addition, there are some famous Jewish sites just a 30-minute train ride from Alcala, in Toledo. In Alcala itself, you can see the old “barrio Judio” (Jewish neighborhood), and the old “barrio musulmán” (Muslim neighborhood) both near Calle Santiago.</p>
 				<p>Overall, the mix between the historical influences of Islam and Christianity, with the strong historical and current presence of Catholic tradition, makes Alcala a rich city for religious and cultural learning.</p>
 			</section>
-			<section>
-				<h1 id="Illustrious_characters">Illustrious characters / famous personages</h1>
+			<section id="7">
+				<h1>Illustrious characters / famous personages <button onclick="show(7)">Watch video <i class="far fa-play-circle"></i></button></h1>
 				<ol>
 					<li>José Guirao Cabrera. (Andalusia) Cultural manager and expert in Spanish art, related to the Spanish avant-garde scene since the 1990s. Since June 14, 2018, he was Minister of Culture and Sports of Spain. He was director of the Museo Nacional Centro de Arte Reina Sofía and La Casa Encendida.</li>
 					<li>Manuel Borja-Villel. (Valencian Community) Historian of Spanish art. Since January 2008 he has been director of the Reina Sofía Museum. His first major project, within the strict framework of the works in custody, was the reorganization of the permanent exhibition.</li>
@@ -114,8 +119,12 @@
 					<li>Evelio Acevedo. (Madrid) With legal training and in Communication and Corporate Responsibility, he began his professional career at Banco Santander. In 2012 he was appointed Managing Director of the Fundación Colección Thyssen-Bornemisza.</li>
 				</ol>
 			</section>
-			<section>
-				<h1 id="Languages">Languages</h1>
+			<section id="8">
+				<div class="video vertical">
+					<button class="cancel" onclick="hide(8)"><i class="fas fa-times-circle"></i></button>
+					<video src="Videos/Languages.mp4" controls></video>
+				</div>
+				<h1>Languages <button onclick="show(8)">Watch video <i class="far fa-play-circle"></i></button></h1>
 				<p>The languages of Spain, or Spanish languages, are the languages spoken or once spoken in Spain.</p>
 				<p>Most languages spoken in Spain belong to the Romance language family, of which Spanish is the only language which has official status for the whole country. Various other languages have co-official or recognised status in specific territories, and a number of unofficial languages and dialects are spoken in certain localities.</p>
 				<h4>- Present-day languages</h4>
@@ -191,5 +200,21 @@
 			</section>
 		</article>
 	</div>
+
+	<footer>
+		<span>José Franciso Aranda Frausto</span>
+		<span>Andres Hassan Sánchez Juárez</span>
+		<span>Hanna Paola Orozco castellanos</span>
+		<span>César Andrés Trujillo Ramírez</span>
+		<span>Ivonne Xcaret Arrona Fonseca</span>
+		<span>Andrea Gutiérrez de Velazco Gutiérrez</span>
+		<span>Francisco Javier Gutiérrez Medrano</span>
+		<span>Rodrigo Enríquez Tinajero</span>
+		<span>Itzel Berenice Rueda Barba</span>
+		<span>Ramón Alejandro Coss Márquez</span>
+		<span>Alan Mauricio Reyes Flores</span>
+	</footer>
+
+	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
