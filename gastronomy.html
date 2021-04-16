@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="estilo.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ubuntu&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/53e3981174.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="fondo">
@@ -29,16 +30,20 @@
 	<div class="contenido">
 		<aside>
 			<ul class="aside__list">
-				<li><a href="#Typical_dishes">Typical dishes</a></li>
-				<li><a href="#food">Way of eating the typical dishes / food</a></li>
+				<li><a href="#9">Typical dishes</a></li>
+				<li><a href="#10">Way of eating the typical dishes / food</a></li>
 			</ul>
 		</aside>
 
 		<article>
 			<h1>Gastronomy</h1>
 			<div class="linea__titulo"></div>
-			<section>
-				<h1 id="Typical_dishes">Typical dishes</h1>
+			<section id="9">
+				<div class="video vertical">
+					<button class="cancel" onclick="hide(9)"><i class="fas fa-times-circle"></i></button>
+					<video src="Videos/Typical dishes.mp4" controls></video>
+				</div>
+				<h1>Typical dishes <button onclick="show(9)">Watch video <i class="far fa-play-circle"></i></h1>
 				<p>the typical dishes of Spain are:</p>
 				<ol>
 					<li>Tortilla Española</li>
@@ -64,12 +69,32 @@
 				</ol>
 				<p>These dishes are the most requested by all tourists.</p>
 			</section>
-			<section>
-				<h1 id="food">Way of eating the typical dishes / food</h1>
+			<section id="10">
+				<div class="video horizontal">
+					<button class="cancel" onclick="hide(10)"><i class="fas fa-times-circle"></i></button>
+					<video src="Videos/Recipes and way of eating.mp4" controls></video>
+				</div>
+				<h1>Way of eating the typical dishes / food <button onclick="show(10)">Watch video <i class="far fa-play-circle"></i></h1>
 				<p>The Spain gastronomy is world famous and some of its typical dishes are so popular that you have to try them during your trip to Spain.  All the recipes that we propose below are so well known that it will be easy for you to find them when ordering in a restaurant.  And then, to upload photos to the internet to make your friends envious.  Remember that these are just a few examples.</p>
 				<p>Coco from Madrid: A very warm stew is a pleasure available to everyone.  Although there are several methods of cooking, the one known as Madrid has a traditional way of eating it: start with a tasty soup with noodles, then chickpeas and vegetables and finish with meats and sausages.  How good it feels especially in winter.</p>
 			</section>
 		</article>
 	</div>
+
+	<footer>
+		<span>José Franciso Aranda Frausto</span>
+		<span>Andres Hassan Sánchez Juárez</span>
+		<span>Hanna Paola Orozco castellanos</span>
+		<span>César Andrés Trujillo Ramírez</span>
+		<span>Ivonne Xcaret Arrona Fonseca</span>
+		<span>Andrea Gutiérrez de Velazco Gutiérrez</span>
+		<span>Francisco Javier Gutiérrez Medrano</span>
+		<span>Rodrigo Enríquez Tinajero</span>
+		<span>Itzel Berenice Rueda Barba</span>
+		<span>Ramón Alejandro Coss Márquez</span>
+		<span>Alan Mauricio Reyes Flores</span>
+	</footer>
+
+	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
